@@ -22,7 +22,7 @@ const Index = () => {
       title: "THE VIEW IN PRESTON",
       subtitle: "HERITAGE REIMAGINED",
       description: "An architectural masterpiece nestled in the heart of Preston, offering a lifestyle of unparalleled luxury and sophistication.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1800&q=80"
+      image: "/lovable-uploads/30d2e6e3-dd6e-4d4b-8cda-11faaae95664.png"
     },
     {
       id: "overview",
