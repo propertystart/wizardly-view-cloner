@@ -29,7 +29,7 @@ const Index = () => {
       title: "OVERVIEW",
       subtitle: "CONTEMPORARY LIVING",
       description: "The View In Preston represents a new paradigm in luxury living, where heritage craftsmanship meets contemporary design. This exclusive collection of residences offers a once-in-a-lifetime opportunity to own a piece of architectural history reimagined for modern lifestyles.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1800&q=80"
+      image: "/lovable-uploads/d4269f77-f4f7-4f0c-99af-a902a2a2c37f.png"
     },
     {
       id: "location",
