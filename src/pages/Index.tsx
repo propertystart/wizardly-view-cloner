@@ -1,13 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { WizardLayout } from "@/components/layout/WizardLayout";
+import { WizardProvider } from "@/components/wizard/WizardContext";
+import { WizardStepIndicator } from "@/components/wizard/WizardStepIndicator";
+import { WizardContent } from "@/components/wizard/WizardContent";
+import { WizardNavigation } from "@/components/wizard/WizardNavigation";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <WizardLayout>
+      <div className="max-w-5xl mx-auto w-full px-4 py-8 flex-1 flex flex-col">
+        <WizardProvider>
+          <div className="relative pb-6">
+            <WizardStepIndicator />
+          </div>
+          <WizardContent />
+          <div className="mt-auto pt-8">
+            <WizardNavigation />
+          </div>
+        </WizardProvider>
       </div>
-    </div>
+    </WizardLayout>
   );
 };
 
